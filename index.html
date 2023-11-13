@@ -4,112 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Encrypt your words with emojis, and send them to your friends in secret."
-    />
-    <meta
-      name="keywords"
-      content="emoji encryptor, encrypt text with emojis, decrypt text with emojis, secret emoji messages, emoji codes, emoji cyphers, fun way to communicate, unique way to communicate, send secret messages, hide messages, encrypt messages, decrypt messages, online emoji encryptor, free emoji encryptor, easy-to-use emoji encryptor, secure emoji encryptor, fun emoji encryptor, creative emoji encryptor, Mojicipher, MojiCipher, MOJICIPHER, mojicipher"
-    />
+    <meta name="description" content="Encrypt your words with emojis, and send them to your friends in secret." />
+    <meta name="keywords" content="emoji encryptor, encrypt text with emojis, decrypt text with emojis, secret emoji messages, emoji codes, emoji cyphers, fun way to communicate, unique way to communicate, send secret messages, hide messages, encrypt messages, decrypt messages, online emoji encryptor, free emoji encryptor, easy-to-use emoji encryptor, secure emoji encryptor, fun emoji encryptor, creative emoji encryptor, Mojicipher, MojiCipher, MOJICIPHER, mojicipher" />
     <meta name="author" content="San.77x" />
     <title>MojiCipher</title>
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="icon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="icon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="icon/favicon-16x16.png"
-    />
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png" />
     <link rel="manifest" href="icon/site.webmanifest" />
 
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <!-- Main container -->
     <div id="main">
-      <!-- Header -->
       <h1>
         Text <span><img src="images/arrow.png" alt="" /></span> Emojis
       </h1>
-      <!-- Encryption and Decryption tabs container -->
       <div id="endec-div">
-        <!-- Encrypt Text tab -->
         <h3 id="enc-btn">
           <span><img src="images/lock.png" alt="" /></span> Encrypt Text
         </h3>
-        <!-- Decrypt Emojis tab -->
         <h3 id="dec-btn">
           <span><img src="images/unlock.png" alt="" /></span> Decrypt Emojis
         </h3>
       </div>
-      <!-- Encryption section -->
       <div id="encryption">
-        <!-- Step 1: Type a message -->
-        <h5>1. Type a message</h5>
-        <textarea
-          placeholder="Yup! Right here friend"
-          name=""
-          id="textmsg"
-          cols="30"
-          rows="10"
-        ></textarea>
-        <!-- Step 2: Set a password -->
-        <h5>2. Set a password</h5>
-        <input
-          placeholder="Could be literally anything"
-          type="password"
-          name=""
-          id="password"
-        />
-        <!-- Step 3: Encrypt message -->
-        <h5>3. Encrypt message</h5>
+        <textarea placeholder="  Whisper your secret here..." name="" id="textmsg" cols="30" rows="10"></textarea>
+        <input placeholder="   Your password, Your choice" type="password" name="" id="password" />
         <button id="encrypt-btn">
-          <span><img src="images/lock.png" alt="" /></span>Encrypt Text
+          <span><img src="images/lock.png" alt="" /></span>Secure it !
         </button>
       </div>
-      <!-- Decryption section -->
       <div id="decryption">
-        <!-- Step 1: Paste encrypted message -->
-        <h5>1. Paste encrypted message</h5>
-        <textarea
-          placeholder="Give me those emojis, friend"
-          name=""
-          id="emojimsg"
-          cols="30"
-          rows="10"
-        ></textarea>
-        <!-- Step 2: Type a password -->
-        <h5>2. Type a password</h5>
-        <input
-          placeholder="Your password right here, please"
-          type="password"
-          name=""
-          id="finalpassword"
-        />
-        <!-- Step 3: Decrypt Emojis -->
-        <h5>3. Decrypt Emojis</h5>
+        <textarea placeholder="  Give me those Emojis " name="" id="emojimsg" cols="30" rows="10"></textarea>
+        <input placeholder="  Enter your Key" type="password" name="" id="finalpassword" />
         <button id="decrypt-btn">
           <span><img src="images/unlock.png" alt="" /></span>Decrypt Text
         </button>
       </div>
-      <!-- Result container -->
-      <div id="result">
-        <!-- Result content will be displayed here -->
-      </div>
+      <div id="result">></div>
     </div>
-    <!-- Link to external JavaScript file -->
     <script src="script.js"></script>
   </body>
 </html>
