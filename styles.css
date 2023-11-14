@@ -97,37 +97,30 @@ body {
     justify-content: space-around;
 }
 
-/* Styling for the h5 elements within encryption */
-#encryption h5 {
-    font-size: 16px;
-    font-weight: 500;
-    color: #6e6e6e7c;
-    margin-bottom: 13px;
-}
 
 /* Styling for the textarea within encryption */
 #encryption textarea {
     width: 100%;
     height: 70px;
-    border: 1px solid rgba(52, 52, 52, 0.575);
+    border: 1px solid rgba(255, 252, 252, 0.295);
     padding: 10px;
     margin-bottom: 50px;
     border-radius: 8px;
     font-size: 17px;
     outline: none;
-    background-color: #1c1c1c69;
+    background-color: rgba(234, 240, 234, 0.123);
 }
 
 /* Styling for the input fields within encryption */
 #encryption input {
     width: 100%;
-    border: 1px solid rgba(52, 52, 52, 0.589);
+    border: 1px solid rgba(255, 252, 252, 0.295);
     padding: 10px;
     margin-bottom: 50px;
     border-radius: 8px;
     font-size: 16px;
     outline: none;
-    background-color: #1c1c1c79;
+    background-color:rgba(234, 240, 234, 0.123);
 }
 
 /* Styling for the buttons within encryption */
@@ -163,36 +156,30 @@ button img {
 }
 
 /* Styling for the h5 elements within decryption */
-#decryption h5 {
-    font-size: 16px;
-    font-weight: 500;
-    color: #6e6e6e63;
-    margin-bottom: 13px;
-}
 
 /* Styling for the textarea within decryption */
 #decryption textarea {
     width: 100%;
     height: 70px;
-    border: 1px solid #34343479;
+    border: 1px solid rgba(255, 252, 252, 0.295);
     padding: 10px;
     margin-bottom: 50px;
     border-radius: 8px;
     font-size: 17px;
     outline: none;
-    background-color: #1c1c1c50;
+    background-color:rgba(234, 240, 234, 0.123);
 }
 
 /* Styling for the input fields within decryption */
 #decryption input {
     width: 100%;
-    border: 1px solid #3434347a;
+    border: 1px solid rgba(255, 252, 252, 0.295);
     padding: 10px;
     margin-bottom: 50px;
     border-radius: 8px;
     font-size: 16px;
     outline: none;
-    background-color: #1c1c1c60;
+    background-color:rgba(234, 240, 234, 0.123);
 }
 
 /* Styling for the buttons within decryption */
@@ -222,8 +209,8 @@ button img {
     padding: 20px;
     border-radius: 10px;
     font-size: 18px;
-    background-color: #1c1c1c69;
-    border: 1px solid #34343465;
+    background-color: rgba(234, 240, 234, 0.123);
+    border: 1px solid rgba(255, 252, 252, 0.295);
     width: 45%;
     display: none;
     margin-top: 40px;
