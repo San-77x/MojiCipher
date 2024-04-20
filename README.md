@@ -24,3 +24,4 @@ The application can be used to protect sensitive information from unauthorized a
 - Decrypt the sequence of emojis back into the original text
 - Display the encrypted and decrypted messages to users
 
+ 
